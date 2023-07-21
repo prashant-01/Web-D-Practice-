@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table , th , tr , td{
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Month</th>
+            <th>Expenditure</th>
+            <th>Savings</th>
+        </thead>
+        <tbody>
+            <tr>
+               <td>Jan</td>
+               <td>500</td>
+               <td>1000</td> 
+            </tr>
+            <tr>
+               <td>Feb</td>
+               <td>600</td>
+               <td>400</td>
+            </tr>
+            <tr>
+               <td>March</td>
+               <td>900</td>
+               <td>1500</td>
+            </tr>
+            <tr>
+               <td>April</td>
+               <td>100</td>
+               <td>1100</td>
+            </tr>
+            <tr>
+               <td>May</td>
+               <td>1000</td>
+               <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>3100</td>
+                <td>4100</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><hr>
+    <!-- New Table -->
+    <table>
+        <thead>
+            <th>Day</th>
+            <th>
+                <table>
+                    <thead>Seminar</thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <table>
+                                    <thead>Schedule</thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Begin</td>
+                                            <td>End</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td>
+                                Topic
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>8:00 am</td>
+                                <td>8:00 am</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
