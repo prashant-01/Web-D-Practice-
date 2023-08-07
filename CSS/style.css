@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    height: 265px;
+    width: 315px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: hidden;
+}
+
+.image {
+    padding: 10px 10px 0px 10px;
+    border-radius: 20px;
+}
+
+.description {
+    padding: 0px 10px 0px 10px;
+}
+
+.price{
+    padding-left: 10px;
+    font: sans-serif;
+}
+
+.hrline {
+    width:70%;
+    margin-left:10px;
+    opacity:0.4;
+}
+
+.div1 {
+    height: 500px;
+    width: 1000px;
+    background: url("Thumbnail.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 50px;
+}
+
+.div1 > p {
+    color : red;
+    position: absolute;
+}
